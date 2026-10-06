@@ -31,7 +31,7 @@ const STAGES = [
 ] as const;
 
 export const Route = createFileRoute("/approach")({
-  head: () => ({ meta: [{ title: "Approach — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Approach — Alderstone" }] }),
   component: Approach,
 });
 

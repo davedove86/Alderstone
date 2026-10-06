@@ -33,8 +33,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-30 bg-paper text-ink">
       <div className="relative flex h-20 items-center justify-between px-5 md:h-24 md:px-8">
-        <Link to="/" className="relative z-10 block" aria-label="Alderstane, home">
-          <span className="block font-display text-[1.7rem] leading-none md:text-[2rem]">Alderstane</span>
+        <Link to="/" className="relative z-10 block" aria-label="Alderstone, home">
+          <span className="block font-display text-[1.7rem] leading-none md:text-[2rem]">Alderstone</span>
           <span className="mt-1 block text-sm leading-none">Barnard Castle</span>
         </Link>
 
@@ -82,7 +82,7 @@ export function SiteHeader() {
         <div id="site-menu" className="fixed inset-0 z-40 flex flex-col bg-paper text-ink lg:hidden">
           <div className="flex h-20 items-center justify-between px-5">
             <Link to="/" className="font-display text-[1.7rem] leading-none">
-              Alderstane
+              Alderstone
             </Link>
             <button
               type="button"

@@ -79,7 +79,7 @@ function Home() {
                 Five people, above a shop in Barnard Castle.
               </h2>
               <p className="mt-6 max-w-lg text-pretty text-lg leading-relaxed">
-                Ruth Alderstane and Tom Greaves. About eight projects a year, across the North East and the
+                Ruth Alderstone and Tom Greaves. About eight projects a year, across the North East and the
                 Dales. No schools, offices or volume housing.
               </p>
               <Link

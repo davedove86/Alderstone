@@ -19,7 +19,7 @@ export const Route = createFileRoute("/projects/")({
     if (kind === "House" || kind === "Heritage" || kind === "Hospitality") return { kind };
     return {};
   },
-  head: () => ({ meta: [{ title: "Projects — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Projects — Alderstone" }] }),
   component: Projects,
 });
 

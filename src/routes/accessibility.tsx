@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LegalPage } from "@/components/legal-page";
 
 export const Route = createFileRoute("/accessibility")({
-  head: () => ({ meta: [{ title: "Accessibility — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Accessibility — Alderstone" }] }),
   component: Accessibility,
 });
 
@@ -22,7 +22,7 @@ function Accessibility() {
         {
           heading: "If something blocks you",
           paragraphs: [
-            "Write to studio@alderstane.co.uk and say which page, and what you were trying to do. We will answer with the information in another form if the page itself will not serve.",
+            "Write to studio@alderstone.co.uk and say which page, and what you were trying to do. We will answer with the information in another form if the page itself will not serve.",
           ],
         },
       ]}

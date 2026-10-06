@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 
 const PEOPLE = [
   {
-    name: "Ruth Alderstane",
+    name: "Ruth Alderstone",
     role: "Architect",
     line: "Sets the jobs up, and stays with them through to the end.",
   },
@@ -39,7 +39,7 @@ const TAKES = [
 ] as const;
 
 export const Route = createFileRoute("/practice")({
-  head: () => ({ meta: [{ title: "Practice — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Practice — Alderstone" }] }),
   component: Practice,
 });
 
@@ -55,7 +55,7 @@ function Practice() {
             Five people, above a shop in Barnard Castle.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-pretty leading-relaxed">
-            Ruth Alderstane and Tom Greaves. About eight projects a year. That is the point.
+            Ruth Alderstone and Tom Greaves. About eight projects a year. That is the point.
           </p>
           <img
             src="/images/practice.jpg"

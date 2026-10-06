@@ -7,7 +7,7 @@ import { PROJECTS, GALLERY } from "@/lib/projects";
 export const Route = createFileRoute("/projects/$slug")({
   head: ({ params }) => {
     const project = PROJECTS.find((item) => item.slug === params.slug);
-    return { meta: [{ title: project ? `${project.name} — Alderstane` : "Projects — Alderstane" }] };
+    return { meta: [{ title: project ? `${project.name} — Alderstone` : "Projects — Alderstone" }] };
   },
   component: ProjectPage,
 });

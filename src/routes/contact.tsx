@@ -5,10 +5,10 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
-const STUDIO = "studio@alderstane.co.uk";
+const STUDIO = "studio@alderstone.co.uk";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({ meta: [{ title: "Contact Us — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Contact Us — Alderstone" }] }),
   component: Contact,
 });
 

@@ -14,7 +14,7 @@ export function SiteFooter() {
     <footer className="border-t border-mortar px-5 py-14 md:px-8 md:py-16">
       <div className="grid gap-12 md:grid-cols-3 md:gap-8">
         <div>
-          <p className="font-display text-4xl leading-none">Alderstane</p>
+          <p className="font-display text-4xl leading-none">Alderstone</p>
           <p className="mt-3 text-sm">Barnard Castle</p>
           <p className="mt-6 max-w-xs text-sm text-pretty text-stone">
             Houses, inns and old buildings. Few projects a year, taken carefully, across the North East and the Dales.
@@ -31,9 +31,9 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
-              <a href="mailto:studio@alderstane.co.uk" className="inline-flex items-center gap-2">
+              <a href="mailto:studio@alderstone.co.uk" className="inline-flex items-center gap-2">
                 <Mail className="size-4 shrink-0" aria-hidden />
-                <span className="underline decoration-iron underline-offset-4">studio@alderstane.co.uk</span>
+                <span className="underline decoration-iron underline-offset-4">studio@alderstone.co.uk</span>
               </a>
             </li>
           </ul>
@@ -79,7 +79,7 @@ export function SiteFooter() {
         >
           Web Design by Dove Design Ltd
         </a>
-        <p>Copyright © {new Date().getFullYear()} Alderstane</p>
+        <p>Copyright © {new Date().getFullYear()} Alderstone</p>
       </div>
     </footer>
   );

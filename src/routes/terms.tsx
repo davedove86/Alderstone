@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LegalPage } from "@/components/legal-page";
 
 export const Route = createFileRoute("/terms")({
-  head: () => ({ meta: [{ title: "Terms — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Terms — Alderstone" }] }),
   component: Terms,
 });
 
@@ -22,13 +22,13 @@ function Terms() {
         {
           heading: "The work shown",
           paragraphs: [
-            "Drawings, photographs and text stay with Alderstane, the clients and the photographers. You may look at them here. You may not copy them for another project, or present them as your own.",
+            "Drawings, photographs and text stay with Alderstone, the clients and the photographers. You may look at them here. You may not copy them for another project, or present them as your own.",
           ],
         },
         {
           heading: "Law",
           paragraphs: [
-            "These terms are governed by the law of England and Wales. If a dispute about the website itself cannot be settled by writing to studio@alderstane.co.uk, the courts of England and Wales will hear it.",
+            "These terms are governed by the law of England and Wales. If a dispute about the website itself cannot be settled by writing to studio@alderstone.co.uk, the courts of England and Wales will hear it.",
           ],
         },
       ]}

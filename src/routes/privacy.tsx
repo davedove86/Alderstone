@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LegalPage } from "@/components/legal-page";
 
 export const Route = createFileRoute("/privacy")({
-  head: () => ({ meta: [{ title: "Privacy — Alderstane" }] }),
+  head: () => ({ meta: [{ title: "Privacy — Alderstone" }] }),
   component: Privacy,
 });
 
@@ -16,7 +16,7 @@ function Privacy() {
         {
           heading: "Who we are",
           paragraphs: [
-            "Alderstane is an architecture practice in Barnard Castle. For anything on this page, write to studio@alderstane.co.uk.",
+            "Alderstone is an architecture practice in Barnard Castle. For anything on this page, write to studio@alderstone.co.uk.",
           ],
         },
         {
