@@ -2,8 +2,8 @@
 /**
  * Brand-asset gate shared by browser-smoke.mjs (and unit-testable without a
  * browser): a canvas app is almost always a game / visually rich app, and
- * those must ship a custom share card — the default og.grok.me placeholder is
- * not acceptable for them (see .grok/skills/og/SKILL.md).
+ * those must ship a custom share card — the default OG service placeholder is
+ * not acceptable for them.
  *
  * Games must also set type=x:game in src/lib/og/site.json so the platform
  * injector emits og:type for X game-card unfurls, and public/x-banner.jpg for
@@ -24,13 +24,13 @@
  * also requires the custom card: its caller is normally the pass that exists to
  * produce one, so the placeholder the parent tolerates for a plain utility is a
  * failed pass here. --placeholder-ok is for the other launch — a pass doing
- * favicon, PWA icons and title for a plain utility that keeps the og.grok.me
+ * favicon, PWA icons and title for a plain utility that keeps the OG service
  * card — where no card is the expected verdict rather than a failure.
  */
 import { existsSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import { OG_SITE_REL_PATH, readOgSite, siteHasCustomCard } from "./grok-pwa-shared.mjs";
+import { OG_SITE_REL_PATH, readOgSite, siteHasCustomCard } from "./pwa-shared.mjs";
 
 // Over this, link scrapers (X card previews included) time out or skip the
 // image, so the card silently fails to unfurl. The og skill's JPEG contract
@@ -38,7 +38,7 @@ import { OG_SITE_REL_PATH, readOgSite, siteHasCustomCard } from "./grok-pwa-shar
 export const MAX_CARD_BYTES = 600 * 1024;
 
 // Written by the brand task while it generates, removed when it finishes.
-export const OG_PENDING_REL_PATH = ".grok/og-pending";
+export const OG_PENDING_REL_PATH = ".og/og-pending";
 // A Stop mid-generation leaves the marker behind, so the demotion expires
 // instead of hiding a missing card forever on that workspace.
 export const OG_PENDING_MAX_AGE_MS = 10 * 60 * 1000;
